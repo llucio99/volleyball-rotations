@@ -1,0 +1,23 @@
+.court {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background-color: orange;
+  justify-content: space-around;
+  border-top: 3px solid black;
+}
+
+.player {
+  width: 150px;
+  text-align: center;
+}
+
+.player-row {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-row {
+  flex-direction: row-reverse;
+}
