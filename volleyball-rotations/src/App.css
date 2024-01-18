@@ -11,3 +11,15 @@
 .button {
   margin-top: 10px;
 }
+
+.form {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 100px;
+  top: 100px;
+}
+
+.input {
+  margin-bottom: 10px;
+}
